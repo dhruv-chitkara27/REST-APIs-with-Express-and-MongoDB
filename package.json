@@ -1,0 +1,30 @@
+{
+  "name": "rest-apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruv-chitkara27/REST-APIs-with-Express-and-MongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruv-chitkara27/REST-APIs-with-Express-and-MongoDB/issues"
+  },
+  "homepage": "https://github.com/dhruv-chitkara27/REST-APIs-with-Express-and-MongoDB#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9"
+  }
+}
